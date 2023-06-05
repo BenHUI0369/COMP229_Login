@@ -3,6 +3,8 @@ import { Routes } from  '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
+import { ServiceComponent } from './service/service.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes : Routes = [
     {
@@ -15,6 +17,14 @@ const appRoutes : Routes = [
     }, 
     {
         path: 'project',
+        component: ProjectComponent
+    },
+    {
+        path: 'service',
+        component: ProjectComponent
+    },
+    {
+        path: 'contact',
         component: ProjectComponent
     }
 ];

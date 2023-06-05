@@ -19,3 +19,7 @@ describe('ProjectComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+var btn = document.getElementsByClassName('detail');
+var click = document.getElementsByClassName('detail');
+

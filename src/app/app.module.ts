@@ -8,14 +8,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
 
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
+import { ServiceComponent } from './service/service.component';
+import { ContactComponent } from './contact/contact.component';
 
 import { RouterModule } from '@angular/router';//put the module into import
 
 import appRoutes from './routerConfig';
+
 
 //importing file from module
 @NgModule({
@@ -23,7 +28,9 @@ import appRoutes from './routerConfig';
     AppComponent,
     HomeComponent,
     ProjectComponent,
-    AboutComponent
+    AboutComponent,
+    ServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,8 @@ import appRoutes from './routerConfig';
     MatToolbarModule,
     MatButtonModule,
     RouterModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,98 @@
+/*
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.aboutme {
+    padding-left: 20%;
+    text-align: left;
+    display: flex;
+}
+
+.selfinfo {
+    width: 30%;
+}
+
+.personalimage {
+    width: 30%;
+}
+
+img {
+    height: 80%;
+}
+*/
+
+h1 {
+    font-size: 39px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.personalimage {
+    float: left;
+    margin-right: 20px;
+}
+
+.aboutme {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personalimage img {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 80%;
+    background-color: aqua;
+}
+
+.selfinfo {
+    font-size: 21px;
+    background-color: #e1e1e1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.intro {
+    overflow: auto;
+}
+
+.intro h2 {
+    font-size: 30px;
+}
+
+.intro p {
+    padding-left: 10px;
+    font-size: 21px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.resume {
+    margin: 30px;
+    text-align: center;
+}
+
+.resume a, span {
+    font-size: 18px;
+    text-decoration: none;
+}
