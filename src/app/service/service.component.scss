@@ -1,0 +1,29 @@
+#title {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 10px;
+}
+
+#service {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFD4ED;
+    border-radius: 30px;
+}
+
+#service img {
+    width: 60%;
+}
+
+#list1, #list2, #list3 {
+    text-align: center;
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.serset {
+    margin-bottom: 40px;
+}

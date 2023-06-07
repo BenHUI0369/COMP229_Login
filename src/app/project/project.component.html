@@ -2,12 +2,12 @@
 
 <div class="pj">
     <div class="pj1">
-        <h1>1: Web Design - Game info</h1>
+        <h1>1: Game Web Design</h1>
         <p>Display interesting Game information</p>
         <span>Progress: 30%</span>
         <mat-progress-bar color="accent" mode="determinate" value="30"></mat-progress-bar>
         <img src="../../assets/project/game.jpg">
-        <div class="btn"><button mat-raised-button color="primary">Detail</button></div>
+        <div class="btn" id="btn1"><button mat-raised-button color="primary" (click)="onclick(0)">Detail</button></div>
         <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, provident. Magnam id, dolore adipisci sunt nostrum eius ut mollitia cupiditate! Eum non nulla praesentium sint minima amet aliquid! Sint, officia.</p>
     </div>
     
@@ -17,7 +17,8 @@
         <span>Progress: 50%</span>
         <mat-progress-bar color="accent" mode="determinate" value="50"></mat-progress-bar>
         <img src="../../assets/project/pokemondb.png">
-        <div class="btn"><button mat-raised-button color="primary">Detail</button></div>
+        <div class="btn"><button mat-raised-button color="primary" (click)="onclick(1)">Detail</button></div>
+        <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, provident. Magnam id, dolore adipisci sunt nostrum eius ut mollitia cupiditate! Eum non nulla praesentium sint minima amet aliquid! Sint, officia.</p>
     </div>
     
     <div class="pj3">
@@ -26,6 +27,6 @@
         <span>Progress: 90%</span>
         <mat-progress-bar color="accent" mode="determinate" value="90"></mat-progress-bar>
         <img src="../../assets/project/portfolio.png">
-        <div class="btn"><button mat-raised-button color="primary">Detail</button></div>
+        <div class="btn"><button mat-raised-button color="primary" (click)="onclick(2)">Detail</button></div>
     </div>
 </div>

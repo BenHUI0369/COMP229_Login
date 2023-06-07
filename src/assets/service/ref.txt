@@ -1,0 +1,27 @@
+<a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by surang - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/backend" title="backend icons">Backend icons created by Flat Icons - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/mobile-app" title="mobile app icons">Mobile app icons created by Eucalyp - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/development" title="development icons">Development icons created by Design Circle - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/game-development" title="game development icons">Game development icons created by juicy_fish - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/ux" title="ux icons">Ux icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/sql" title="sql icons">Sql icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/linux" title="linux icons">Linux icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/nodejs" title="nodejs icons">Nodejs icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>

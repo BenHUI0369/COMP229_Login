@@ -21,11 +21,11 @@ const appRoutes : Routes = [
     },
     {
         path: 'service',
-        component: ProjectComponent
+        component: ServiceComponent
     },
     {
         path: 'contact',
-        component: ProjectComponent
+        component: ContactComponent
     }
 ];
 

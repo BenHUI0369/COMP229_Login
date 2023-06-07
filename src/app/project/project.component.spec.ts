@@ -20,6 +20,5 @@ describe('ProjectComponent', () => {
   });
 });
 
-var btn = document.getElementsByClassName('detail');
-var click = document.getElementsByClassName('detail');
+
 
