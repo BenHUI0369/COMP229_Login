@@ -1,3 +1,4 @@
+<!--
 <p>project works!</p>
 
 <div class="pj">
@@ -6,7 +7,9 @@
         <p>Display interesting Game information</p>
         <span>Progress: 30%</span>
         <mat-progress-bar color="accent" mode="determinate" value="30"></mat-progress-bar>
-        <img src="../../assets/project/game.jpg">
+        <div class="projectimg">
+            <img src="../../assets/project/game.jpg">
+        </div>
         <div class="btn" id="btn1"><button mat-raised-button color="primary" (click)="onclick(0)">Detail</button></div>
         <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, provident. Magnam id, dolore adipisci sunt nostrum eius ut mollitia cupiditate! Eum non nulla praesentium sint minima amet aliquid! Sint, officia.</p>
     </div>
@@ -16,7 +19,9 @@
         <p>Display Pokemon detail with their number</p>
         <span>Progress: 50%</span>
         <mat-progress-bar color="accent" mode="determinate" value="50"></mat-progress-bar>
-        <img src="../../assets/project/pokemondb.png">
+        <div class="projectimg">
+            <img src="../../assets/project/pokemondb.png">
+        </div>
         <div class="btn"><button mat-raised-button color="primary" (click)="onclick(1)">Detail</button></div>
         <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, provident. Magnam id, dolore adipisci sunt nostrum eius ut mollitia cupiditate! Eum non nulla praesentium sint minima amet aliquid! Sint, officia.</p>
     </div>
@@ -26,7 +31,48 @@
         <p>Personal profile and current project</p>
         <span>Progress: 90%</span>
         <mat-progress-bar color="accent" mode="determinate" value="90"></mat-progress-bar>
-        <img src="../../assets/project/portfolio.png">
+        <div class="projectimg">
+            <img src="../../assets/project/portfolio.png">
+        </div>
         <div class="btn"><button mat-raised-button color="primary" (click)="onclick(2)">Detail</button></div>
+    </div>
+</div>
+-->
+
+<div class="title">
+    <h1>BenHUI's <span class="orange">Project</span></h1>
+    <h2>Developer</h2>
+</div>
+<div class="list1">
+    <div class="pj1">
+        <div class="detail">
+            <p>Create User-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.!</p>
+        </div>
+        <img src="../../assets/project/frontend.png"><br>    
+        <div class="btn"><span>Front end design</span><button mat-raised-button color="primary" (click)="onclick(0)">+</button></div>
+    </div>
+    <div class="pj2">
+        <div class="detail">
+            <p>Create user-friendly UI/UX based on upcoming game in Steam!</p>
+        </div>
+        <img src="../../assets/project/gamelist.png"><br>       
+        <div class="btn"><span>Mobile app UI/UX</span><button mat-raised-button color="primary" (click)="onclick(1)">+</button></div>
+    </div>
+</div>
+
+<div class="list2">
+    <div class="pj3">
+        <div class="detail">
+            <p>Pokémon DB focuses on main series games with content including information on Pokémon, moves, Abilities, and types.!</p>
+        </div>
+        <img src="../../assets/project/pokemondb.png"><br>       
+        <div class="btn"><span>Pokémon DB</span><button mat-raised-button color="primary" (click)="onclick(2)">+</button></div>
+    </div>
+    <div class="pj4">
+        <div class="detail">
+            <p>Create a common architectural style for an application program interface (API) that uses HTTP requests to access and use data!</p>
+        </div>
+        <img src="../../assets/project/RESTfulAPI.png"><br>       
+        <div class="btn"><span>RESTful API</span><button mat-raised-button color="primary" (click)="onclick(3)">+</button></div>
     </div>
 </div>

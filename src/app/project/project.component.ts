@@ -29,10 +29,10 @@ onclick(index: number) {
 
   if (details[index].style.display == 'none'|| details[index].style.display == '') {
     details[index].style.display = 'block';
-    buttons[index].textContent = 'Hide-Detail';
+    buttons[index].textContent = '-';
   } else {
     details[index].style.display = 'none';
-    buttons[index].textContent = 'Detail';
+    buttons[index].textContent = '+';
   }
   
 }

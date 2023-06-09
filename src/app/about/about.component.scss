@@ -1,69 +1,76 @@
-/*
-
-.title {
-    text-align: center;
-    margin-bottom: 100px;
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .aboutme {
-    padding-left: 20%;
-    text-align: left;
-    display: flex;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.title {
+    position: relative;
+    top: 60px;
+    line-height: 50px;
 }
 
 .selfinfo {
-    width: 30%;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.name {
+    position: relative;
+    top: 300px;
+    left: 400px;
+    z-index: 999;
 }
 
 .personalimage {
-    width: 30%;
-}
-
-img {
-    height: 80%;
-}
-*/
-
-h1 {
-    font-size: 39px;
-}
-
-.title {
-    text-align: center;
-    margin-bottom: 100px;
-    margin-top: 30px;
-}
-
-.personalimage {
-    float: left;
-    margin-right: 20px;
-}
-
-.aboutme {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    height: 500px;
+    background-color: #c4c2c2;
+    width: 500px;
+    z-index: 99;
 }
 
 .personalimage img {
     position: relative;
-    top: 50px;
-    left: 50px;
-    width: 80%;
-    background-color: aqua;
-}
-
-.selfinfo {
-    font-size: 21px;
-    background-color: #e1e1e1;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    border-radius: 10px;
+    top: 68px;
+    left: 30px;
 }
 
 .intro {
-    overflow: auto;
+    position: relative;
+    bottom: 200px;
+    z-index: 9;
+    background-color: #ffcb00;
+}
+
+.intro img {
+    width: 36px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.intro a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.intro ul {
+    position: relative;
+    padding-top: 30px;
+
+}
+
+.intro li {
+    list-style-type: none;
+    padding-left: 600px;
 }
 
 .intro h2 {
@@ -71,28 +78,8 @@ h1 {
 }
 
 .intro p {
-    padding-left: 10px;
-    font-size: 21px;
-    background-color: #e1e1e1;
-    border-radius: 10px;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #555;
-}
-
-.resume {
-    margin: 30px;
-    text-align: center;
-}
-
-.resume a, span {
-    font-size: 18px;
-    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 25px;
+    padding-bottom: 10px;
 }

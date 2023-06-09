@@ -1,20 +1,28 @@
-<div id="contactform">
-    <div id="left">
-        <img src="../../assets/contact/contactme.png"><br>
-        <img src="../../assets/contact/contactimage.png">
-    </div>
-    <div id="inputform">
-        <form action="./home" method="get">
-        <h1>Contact Form</h1>
-            <input type="text" id="lastname" name="lastname" value="Last Name"><br>
-            <input type="text" id="firstname" name="firstname" value="First Name"><br>
-            <input type="email" id="mail" name="mail" value="E-Mail"><br>
-            <label for="message">Message: </label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-            <button type="submit" mat-raised-button color="primary" value="Submit">Submit</button>
-        </form><br><br><br>
-    </div>
+<div class="titleimg">
+    <img src="../../assets/contact/topimage.png">
 </div>
+<div class="contectme">
+    <h1>Contact Me</h1>
+    <h2>Please Fill this form in a decent manner</h2>
+</div>
+
+<div id="inputform">
+    <form action="./home" method="get">
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname"><br>
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" name="firstname"><br>
+        <label for="mail">E-mail: </label>
+        <input type="email" id="mail" name="mail"><br>
+        <label for="message">Message: </label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <div class="btn">
+            <button type="submit" mat-raised-button color="primary" value="Submit">Submit</button>
+        </div>
+        
+    </form><br><br><br>
+</div>
+
 
 
   

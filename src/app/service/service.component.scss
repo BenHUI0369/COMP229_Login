@@ -1,29 +1,73 @@
-#title {
-    text-align: center;
-    font-size: 36px;
+#sertitle {
+    text-align: right;
+    font-size: 90px;
+    font-weight: 600;
     padding-top: 10px;
+    position: relative;
+    top: 30px;
+    right: 70px;
+}
+
+.orange {
+    color: #eeb802;
 }
 
 #service {
-    width: 90%;
-    margin: 0 auto;
+    width: 50%;
+    height: 700px;
     display: flex;
     justify-content: space-around;
-    background-color: #CFD4ED;
+    background-color: #e2e2e2;
     border-radius: 30px;
+    position: relative;
+    left: 540px;
+    top: 100px;
 }
 
 #service img {
-    width: 60%;
+    width: 90px;
 }
 
-#list1, #list2, #list3 {
+#service span {
+    font-size: 20px;
+}
+
+#list1, #list2 {
     text-align: center;
-    width: 10%;
+    width: 20%;
     position: relative;
-    top: 20px;
+    top: 90px;
+    right: 20px;
 }
 
 .serset {
     margin-bottom: 40px;
+}
+
+#skilltitle {
+    font-size: 90px;
+    font-weight: 600;
+    position: relative;
+    bottom: 450px;
+    left: 0px;
+}
+
+#tools {
+    text-align: center;
+    background-color: #e2e2e2;
+    width: 36%;
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 390px;
+    position: relative;
+    bottom: 400px;
+    right: 360px;
+}
+
+#tools img {
+    margin-left: 15px;
+    width: 90px;
+    position: relative;
+    top: 60px;
+    right: 10px;
 }

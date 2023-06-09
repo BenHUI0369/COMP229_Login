@@ -1,6 +1,56 @@
-:host {
-    background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg?w=2000');
-    background-size: cover;
-    background-position: center;
-  }
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.name {
+  text-align: right;
+  line-height: 40px;
+  position: relative;
+  top: 30px;
+}
+
+.name h1 {
+  font-size: 60px;
+}
+
+.left {
+  height: 500px;
+  background-color: #ffcb00;
+  width: 30%;
+  position: relative;
+}
+
+.name span {
+  font-size: 30px;
+}
+
+.contact {
+  margin-top: 100px;
+  text-align: right;
+  line-height: 40px;
+  position: relative;
+  bottom: 450px;
+}
+
+.contact span {
+  font-size: 25px;
+  color: #b5b5b5;
+}
+
+.portfolio {
+  position: relative;
+  bottom: 301px;
+}
+
+.portfolio h1 {
+  font-size: 150px;
+  font-weight: 900;
+}
+
+.image {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+}
   

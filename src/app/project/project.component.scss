@@ -1,4 +1,5 @@
-.pj {
+
+/*.pj {
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -33,11 +34,75 @@ img {
 
 }
 
-.btn:hover {
-
+.projectimg {
+    height: 300px;
 }
-
 
 .detail {
     display: none;
+}
+*/
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 90px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.title h2 {
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: #8e9da8;
+}
+
+.orange {
+    color: #ffcb00;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+}
+
+.list1,.list2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pj1, .pj2, .pj3, .pj4 {
+    text-align: center;
+    margin-right: 60px;
+}
+
+.btn span, .btn span {
+    font-size: 21px;
+    margin-right: 60px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+.detail {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #000000;
+    opacity: 0.8;
+    display: none;
+}
+
+.detail p {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 60px;
 }
