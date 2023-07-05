@@ -5,6 +5,7 @@ import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoutes : Routes = [
     {
@@ -26,6 +27,10 @@ const appRoutes : Routes = [
     {
         path: 'contact',
         component: ContactComponent
+    },
+    {
+        path: 'login',
+        component: LoginComponent
     }
 ];
 
