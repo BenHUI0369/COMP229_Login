@@ -26,6 +26,13 @@ import { RouterModule } from '@angular/router';//put the module into import
 
 import appRoutes from './routerConfig';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BusinessContactComponent } from './business-contact/business-contact.component';
+import { ContactAddEditComponent } from './contact-add-edit/contact-add-edit.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTableModule} from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 
@@ -39,6 +46,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ServiceComponent,
     ContactComponent,
     LoginComponent,
+    BusinessContactComponent,
+    ContactAddEditComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,7 +65,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatCardModule,
     FlexLayoutModule,
-    MatInputModule
+    MatInputModule,
+    MatDialogModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

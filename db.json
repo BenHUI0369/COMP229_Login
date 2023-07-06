@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contact": [
+    {
+      "firstname": "user2",
+      "lastname": "123",
+      "email": "nglinlin898@gmail.com",
+      "phone": "+85267484176",
+      "id": 1
+    },
+    {
+      "firstname": "Ben",
+      "lastname": "HUI",
+      "email": "nglinlin898@gmail.com",
+      "phone": "1234567891",
+      "id": 2
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "phone": "",
+      "id": 3
+    }
+  ]
+}

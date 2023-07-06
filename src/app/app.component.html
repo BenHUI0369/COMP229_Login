@@ -1,10 +1,10 @@
+<ng-container  *ngIf="navbarService.visible">
 <mat-toolbar color="primary">
   <span>Portfolio</span>
   <img class="logo" src="../assets/logo.png">
   <span class="example-spacer"></span>
   <div>
-    <nav>
-      
+    <nav >
       <a mat-button routerLink="/home" routerLinkActive="active">
         <img class="icon" src="../assets/home.png">Home
       </a>
@@ -20,11 +20,14 @@
       <a mat-button routerLink="/contact">
         <img class="icon" src="../assets/contact.png">Contact Me
       </a>
-      <a mat-button routerLink="/login">
-        Login
+      <a mat-button routerLink="/business-contact">
+        <img class="icon" src="../assets/contact.png">Business Contact
+      </a>
+      <a mat-button (click)="logout()">
+        Logout
       </a>
     </nav>
   </div>
 </mat-toolbar>
-
+</ng-container>
 <router-outlet></router-outlet>

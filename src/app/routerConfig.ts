@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
+import { BusinessContactComponent } from './business-contact/business-contact.component';
 
 const appRoutes : Routes = [
     {
@@ -29,8 +30,12 @@ const appRoutes : Routes = [
         component: ContactComponent
     },
     {
-        path: 'login',
+        path: '',
         component: LoginComponent
+    },
+    {
+        path: 'business-contact',
+        component: BusinessContactComponent
     }
 ];
 
