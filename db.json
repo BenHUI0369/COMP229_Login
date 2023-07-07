@@ -18,25 +18,18 @@
   },
   "contact": [
     {
-      "firstname": "user2",
-      "lastname": "123",
-      "email": "nglinlin898@gmail.com",
-      "phone": "+85267484176",
+      "firstname": "admin",
+      "lastname": "admin",
+      "email": "shui26@my.centennialcollege.ca",
+      "phone": "16478913695",
       "id": 1
     },
     {
-      "firstname": "Ben",
-      "lastname": "HUI",
-      "email": "nglinlin898@gmail.com",
-      "phone": "1234567891",
+      "firstname": "test1",
+      "lastname": "test1",
+      "email": "test1@gmail.com",
+      "phone": "1234567890",
       "id": 2
-    },
-    {
-      "firstname": "",
-      "lastname": "",
-      "email": "",
-      "phone": "",
-      "id": 3
     }
   ]
 }

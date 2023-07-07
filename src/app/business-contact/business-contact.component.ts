@@ -10,6 +10,7 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CoreService } from '../core/core.service';
+import { NavbarService } from '../shared/navbar.service';
 
 @Component({
   selector: 'app-business-contact',
@@ -32,10 +33,12 @@ export class BusinessContactComponent implements OnInit {
   constructor(
     private _dialog: MatDialog, 
     private _contactService: ContactService,
-    private _coreService: CoreService
+    private _coreService: CoreService,
+    private navbarService: NavbarService
     ) { }
   ngOnInit() {
     this.getContactList();
+    this.navbarService.show();
   }
   openAddContact() {
     const diaglogRef = this._dialog.open(ContactAddEditComponent);

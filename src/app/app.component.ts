@@ -5,6 +5,7 @@ import { NavbarService } from './shared/navbar.service';
 import { BusinessContactComponent } from './business-contact/business-contact.component';
 import { Observable } from 'rxjs/internal/Observable';
 import { of } from 'rxjs';
+import { CoreService } from './core/core.service';
 
 
 @Component({
@@ -32,9 +33,13 @@ export class AppComponent {
 export class AppComponent implements OnInit {
   isLoggedIn!: boolean;
   title = 'crudApp';
-  constructor(private cdr: ChangeDetectorRef, private authService: AuthService, private router: Router, public navbarService: NavbarService) {
-    
-  }
+  constructor(
+    private cdr: ChangeDetectorRef, 
+    private authService: AuthService, 
+    private router: Router, 
+    public navbarService: NavbarService,
+    private _coreService: CoreService
+    ) { }
   ngOnInit(){
     this.navbarService.hide();
     let jwt = localStorage.getItem("jwt");
@@ -50,7 +55,8 @@ export class AppComponent implements OnInit {
     }).subscribe(() => {
       localStorage.clear();
       this.router.navigate(['/']);
-      alert("Logout successfully");
+      //alert("Logout successfully");
+      this._coreService.openSnackBar("Logout successfully");
     },
     (error) => {
       console.log(error);

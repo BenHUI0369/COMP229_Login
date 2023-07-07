@@ -9,7 +9,7 @@ export class CoreService {
   constructor(private _snackBar: MatSnackBar) { }
   openSnackBar(message:any, action:any = 'ok') {
     this._snackBar.open(message, action, {
-      duration:1000,
+      duration:1500,
       verticalPosition: 'top',
     });
   }
