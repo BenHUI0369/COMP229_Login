@@ -4,6 +4,7 @@ import { AuthService } from '../auth-service.service';
 import { Router } from '@angular/router';
 import { NavbarService } from '../shared/navbar.service';
 import { CoreService } from '../core/core.service';
+import { catchError, throwError } from 'rxjs';
 
 @Component({
   selector: 'app-login',
@@ -28,24 +29,24 @@ export class LoginComponent implements OnInit {
       password: new FormControl('', [Validators.required])
     })
   }
-  loginProces(){
-    if(this.formGroup.valid){
-      this.authService.login(this.formGroup.value).subscribe(result => {
-        if (result.error) {
-          this._coreService.openSnackBar(result.error);
-          //alert(result.error);
-        }
-        if(result.accessToken){
-          //alert("Login successfully");
+
+  loginProces() {
+    if (this.formGroup.valid) {
+      this.authService.login(this.formGroup.value).pipe(
+        catchError((error) => {
+          this._coreService.openSnackBar(error.error.error);
+          return throwError(error);
+        })
+      ).subscribe(result => {
+        if (result.accessToken) {
           this._coreService.openSnackBar("Login successfully");
-          localStorage.setItem("jwt",result.refreshToken);
+          localStorage.setItem("jwt", result.refreshToken);
           this.router.navigate(['/home']);
-        }else {
-          alert("Other error happen!");
         }
       });
-    };
+    }
   }
+  
 
 
 }
